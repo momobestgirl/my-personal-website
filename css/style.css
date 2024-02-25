@@ -1,0 +1,142 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100%;
+    font-style: normal;
+    color: #40514E;
+}
+
+.line{
+    border: dotted #40514E 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto;
+    margin-top: 50px;
+}
+
+.intro-class{
+    background-color: #11999E;
+
+}
+
+#intro a{
+    text-decoration: none;
+    color: #40514E;
+}
+
+#intro h1{
+    font-size: 75px;
+}
+
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.project-class h4{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 5px;
+    font-weight: bold;
+
+}
+
+.card{
+    margin-right: 2%;
+}
+
+.about-me-pic{
+    border-radius: 60%;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.overlay-bg{
+    position: absolute;
+    right: 2%;
+    top: -10%;   
+    z-index: 999;
+    opacity: 0.3;
+}
+
+.card{
+    transition: all 0.4s;
+}
+
+.card:hover{
+    transform: scale(1.15);
+}
+
+.interest{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1fr, 1fr);
+    width: 55%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    column-gap: 2rem;
+    row-gap: 5rem;
+    justify-items: center;
+}
+
+.contact-message{
+    width: 43%;
+    margin: 40px auto 60px;
+    text-align: center;
+}
+
+.pill{
+    font-size: 30px;
+    padding: 0.4em 1.2em;
+    margin: 1em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    background: #E4F9F5;
+    cursor: pointer;
+}
+
+.pill:hover{
+    background: #30E3CA;
+}
+
+.contact-class a{
+    text-decoration: none;
+    color: #40514E;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    background-color: #11999E;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a{
+    color: #40514E;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #E4F9F5;
+}
+
+.links{
+    margin-bottom: 30px;
+}
+
+.interest-class img {
+    display: absolute;
+    max-width: 100%;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
